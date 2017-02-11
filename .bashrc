@@ -20,6 +20,7 @@ alias date="date +'%d-%m-%Y, %H:%M'"
 alias C="gcc -Wall -pedantic -ansi "
 alias C++="g++ -Wall -pedantic -ansi "
 alias open="nautilus ."
+alias exitvenv="deactivate"
 
 #============================================
 # Comandos importantes para o terminal
@@ -28,6 +29,9 @@ alias open="nautilus ."
 # NVM
 export NVM_DIR="/home/victor/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Android Studio
+export PATH="$PATH:$HOME/android-studio/bin"
 
 #============================================
 # Configuração do TMUX
