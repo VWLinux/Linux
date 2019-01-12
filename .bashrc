@@ -14,11 +14,8 @@ source ~/.bash_git
 
 alias config_bash="vim ~/.bashrc"
 alias config_vim="vim ~/.vim/vimrc"
-alias config_tmux="vim ~/.tmux.conf"
 alias update="source ~/.bashrc"
 alias date="date +'%d-%m-%Y, %H:%M'"
-alias C="gcc -Wall -pedantic -ansi "
-alias C++="g++ -Wall -pedantic -ansi "
 alias open="nautilus ."
 alias exitvenv="deactivate"
 
@@ -26,22 +23,6 @@ alias exitvenv="deactivate"
 # Comandos importantes para o terminal
 #============================================
 
-# NVM
-export NVM_DIR="/home/victor/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# Android Studio
-export PATH="$PATH:$HOME/android-studio/bin"
-
-#============================================
-# Configuração do TMUX
-#============================================
-
-if [ "$TERM" = "xterm"  ]; then
-    export TERM=xterm-256color
-fi
-alias tmux='tmux -2'  # for 256color
-alias tmux='tmux -u'  # to get rid of unicode rendering problem
 
 #============================================
 # Colocar corer nos diretorios do terminal
